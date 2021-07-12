@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.title{
+
+    font-size: 20px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 29px;
+}
+.player{
+    display: flex;
+}
+
+/* player's images & names */
+.player img{
+    width: 56px;
+}
+.player h2{
+    font-size: 18px;
+    margin-left: 16px;
+}
