@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font-styles */
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
@@ -6,11 +7,14 @@ body{
 main{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .container{
     width: 870px;
     padding: 33px 50px 42px 30px;
     background-color: #FFFFFF;
+    margin-bottom: 21px;
 }
 /* .all-players{
     padding: 33px 50px 42px 30px;
@@ -44,10 +48,12 @@ main{
     font-size: 18px;
     margin-left: 16px;
 }
+/* horizontal line */
 hr{
     border: 1px solid #D1D1D1;
     margin-bottom: 30px;
 }
+/* section1part2starts */
 .blogs{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -59,3 +65,28 @@ hr{
 .blog-author h2{
     font-size: 20px;
 }
+/* section1part2ended
+&
+section2starts
+*/
+.course-infos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+}
+.course-images img{
+    width: 224px;
+    height: 104px;
+}
+.course-details{
+    display: flex;
+    justify-content: space-between;
+    padding-left: -10px;
+}
+.fa-star.filling{
+    color: #FFC014;
+}
+.fa-star.individual-filling{
+    color: #AEAEAE;
+}
+/* section2ended */
